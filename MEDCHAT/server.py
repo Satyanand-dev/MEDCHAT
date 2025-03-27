@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/api/chat": {"origins": "*"}})
 
 # Configure Gemini AI
-GEMINI_API_KEY = "AIzaSyAsRZuKzLKZpHCd38x83x8olx66ao_DjQo"
+GEMINI_API_KEY = "GOOGLE_GEMINI_API"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Emergency Keywords
